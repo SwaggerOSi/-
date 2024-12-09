@@ -35,7 +35,7 @@ class Iterator:
 
 # №3
 try:
-    iter1 = Iterator(100, 200, 0)  
+    iter1 = Iterator(100, 200, 0)  # Исключение при шаге 0
     for i in iter1:
         print(i, end=' ')
 except StepValueError:
